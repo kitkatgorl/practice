@@ -1,33 +1,43 @@
-#box {
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    text-align: center;
-
-    border: thick solid cornflowerblue;
-    height: 500px;
-    width: 600px;
+@font-face {
+    font-family: Ole;
+    src: url('fonts/Ole-Regular.ttf');
 }
 
-#whatever-you-want-but-it-cant-have-spaces {
-    font-size: 150px;
-    font-family: fantasy;
-    color: coral;
+body {
+    margin: 0;
+}
+
+#box {
+    border: solid 1rem aquamarine;
+    height: 95.9vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:honeydew;
 }
 
 #other-box {
+    border: dotted 0.5rem brown;
+    height: 60%;
+    width: 50%;
     display: flex;
-    justify-content: space-evenly;
-    align-items: top;
-    text-align: right;
-
-    border: thick solid rgb(191, 255, 0);
-    height: 100px;
-    width: 200px;
+    justify-content: center;
+    align-items: center;
+    background-color: coral;
 }
 
-#i-wish-i-could-put-spaces-here {
-    font-size: 15px;
+#other-other-box {
+    border: dashed 0.5rem aquamarine;
+    height: 60%;
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: honeydew;
+}
+
+h2 {
     font-family: fantasy;
-    color: brown;
+    color:cornflowerblue;
+    font-size: 3rem;
 }
